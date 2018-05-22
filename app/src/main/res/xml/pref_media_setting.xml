@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory android:title="@string/picture_setting">
+            <ListPreference
+                android:key="@string/key_picture_size"
+                android:dialogTitle="@string/picture_size"
+                android:entries="@array/picture_sizes"
+                android:entryValues="@array/picture_sizes"
+                android:defaultValue="@string/default_picture_size"
+                android:title="@string/picture_size" />
+            <CheckBoxPreference
+                android:key="@string/key_picture_auto_upload"
+                android:title="@string/picture_auto_upload"
+                android:checked="false"/>
+        </PreferenceCategory>
+
+        <PreferenceCategory android:title="@string/video_setting">
+            <ListPreference
+                android:key="@string/key_video_resolution"
+                android:dialogTitle="@string/video_resolution"
+                android:entries="@array/video_resolutions"
+                android:entryValues="@array/video_resolutions"
+                android:defaultValue="@string/default_video_resolution"
+                android:title="@string/video_resolution" />
+
+            <ListPreference
+                android:key="@string/key_video_pre_do"
+                android:dialogTitle="@string/video_pre"
+                android:entries="@array/video_pre_or_delay"
+                android:entryValues="@array/video_pre_or_delay_value"
+                android:defaultValue="@string/default_prepre_record_time"
+                android:title="@string/video_pre" />
+            <ListPreference
+                android:key="@string/key_video_delay_do"
+                android:dialogTitle="@string/video_delay"
+                android:entries="@array/video_pre_or_delay"
+                android:entryValues="@array/video_pre_or_delay_value"
+                android:defaultValue="@string/default_delay_record_time"
+                android:title="@string/video_delay" />
+
+            <ListPreference
+                android:key="@string/key_video_subsection"
+                android:dialogTitle="@string/video_subsection"
+                android:entries="@array/video_subsections"
+                android:entryValues="@array/video_subsections_value"
+                android:defaultValue="@string/default_video_subsection"
+                android:title="@string/video_subsection" />
+
+            <CheckBoxPreference
+                android:key="@string/key_video_float_window"
+                android:title="@string/video_float_window"
+                android:checked="false"/>
+
+        </PreferenceCategory>
+
+        <PreferenceCategory android:title="@string/other_setting">
+            <ListPreference
+                android:key="@string/key_infrared_led"
+                android:dialogTitle="@string/infrared_led"
+                android:entries="@array/infrared_leds"
+                android:entryValues="@array/infrared_led_value"
+                android:defaultValue="@string/default_infrared_led"
+                android:title="@string/infrared_led" />
+        </PreferenceCategory>
+</PreferenceScreen>

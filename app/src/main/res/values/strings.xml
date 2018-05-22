@@ -1,0 +1,115 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">A9playback</string>
+
+    <string name="notes">请输入回看密码</string>
+    <string name="default_pw_notes">默认888888</string>
+    <string name="confirm">确定</string>
+    <string name="empty">没有该类型文件</string>
+    <string name="timer">00:00:00</string>
+    <string name="description">description</string>
+    <string name="pause">pause</string>
+    <string name="start">start</string>
+    <string name="Settings">Settings</string>
+    <string name="Camera">相机</string>
+
+    <string name="Pref_Password">修改回看密码</string>
+    <string name="Pref_Settings">修改多媒体设置</string>
+    <string name="modefy_password">修改密码</string>
+    <string name="reset_password">重置密码</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="modify_pwd_success">修改密码成功</string>
+    <string name="modify_pwd_fail_1">修改密码失败,密码长度应为6位数！</string>
+    <string name="modify_pwd_fail_2">修改密码失败，前后密码不匹配！</string>
+
+    <string name="picture_setting">拍照设置</string>
+    <string name="video_setting">视频设置</string>
+    <string name="other_setting">其它设置</string>
+
+    <string name="picture_size">照片尺寸</string>
+    <string name="picture_auto_upload">拍照自动上传</string>
+    
+    <string name="video_resolution">录像分辨率</string>
+    <string name="video_pre">录像预录</string>
+    <string name="video_delay">录像延录</string>
+    <string name="video_subsection">分段录像</string>
+    <string name="video_float_window">浮窗录像开关</string>
+
+    <string name="infrared_led">红外开关</string>
+
+    <string name="audio_db_title_format"><xliff:g id="format">yyyyMMdd</xliff:g></string>
+    <string name="db_title_format"><xliff:g id="format">yyyy-MM-dd</xliff:g></string>
+    <string name="timer_format" translatable="false"><xliff:g id="format">%02d:%02d:%02d</xliff:g></string>
+
+    <string name="key_picture_size">picture_size</string>
+    <string name="key_picture_auto_upload">picture_auto_upload</string>
+    <string name="key_video_resolution">video_resolution</string>
+    <string name="key_video_pre_do">video_pre_do</string>
+    <string name="key_video_delay_do">video_delay_do</string>
+    <string name="key_video_subsection">video_subsection</string>
+    <string name="key_video_float_window">video_float_window</string>
+    <string name="key_infrared_led">infrared_led</string>
+
+    <string-array name="itemTitle">
+        <item>image playback</item>
+        <item>video playback</item>
+        <item>audio playback</item>
+        <item>setting add password</item>
+    </string-array>
+
+    <string-array name="picture_sizes">
+        <item>320x239</item>
+        <!--<item>2048x1536</item>
+        <item>2560x1902</item>
+        <item>3264x6448</item>
+        <item>4096x3072</item>
+        <item>4624x3472</item>
+        <item>5680x4272</item>
+        <item>6560x4928</item>-->
+    </string-array>
+
+    <string-array name="video_resolutions">
+        <item>640x480</item>
+    </string-array>
+
+    <string-array name="video_pre_or_delay">
+        <item>关闭</item>
+        <item>5秒</item>
+        <item>10秒</item>
+        <item>15秒</item>
+        <item>30秒</item>
+    </string-array>
+
+    <string-array name="video_pre_or_delay_value">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="video_subsections">
+        <item>5分钟</item>
+        <item>10分钟</item>
+        <item>15分钟</item>
+    </string-array>
+
+    <string-array  name="video_subsections_value">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="infrared_leds">
+        <item>关闭</item>
+        <item>打开</item>
+        <item>自动</item>
+    </string-array>
+
+    <!-- 2 is auto,1 is open,0 is close -->
+    <string-array  name="infrared_led_value">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

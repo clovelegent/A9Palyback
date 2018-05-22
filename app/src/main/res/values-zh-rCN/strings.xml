@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">A9回看</string>
+    <string name="notes">请输入回看密码</string>
+    <string name="default_pw_notes">默认888888</string>
+    <string name="confirm">确定</string>
+    <string name="settings">设置</string>
+
+    <string-array name="itemTitle">
+        <item>图片回看</item>
+        <item>视频回放</item>
+        <item>录音回放</item>
+        <item>设置及密码</item>
+    </string-array>
+</resources>

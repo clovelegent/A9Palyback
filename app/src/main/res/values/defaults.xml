@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <string name="default_picture_size">320x239</string>
+    <!-- 0 is close, 1 is open -->
+    <string name="default_capture_auto_upload">0</string>
+    <string name="default_video_resolution">640x480</string>
+    <!-- 0 is close,if not close plsase select 5,10,15,30 -->
+    <string name="default_prepre_record_time">0</string>
+    <!-- some as prere_record_time -->
+    <string name="default_delay_record_time">0</string>
+    <!-- 15,10,5 min -->
+    <string name="default_video_subsection">15</string>
+	<!-- 2 is auto,1 is open,0 is close -->    
+    <string name="default_infrared_led">2</string>
+    <!-- 0 is close,1 is open -->
+    <string name="default_floating_window">1</string>
+</resources>

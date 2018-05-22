@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="gap5dp">5dp</dimen>
+    <dimen name="gap10dp">10dp</dimen>
+    <dimen name="margin_15dp">20dp</dimen>
+    <dimen name="pw_size">25sp</dimen>
+    <dimen name="media_size">16sp</dimen>
+    <dimen name="settings_size">25sp</dimen>
+    <dimen name="classview_item">80dp</dimen>
+    <dimen name="mediaview_item">50dp</dimen>
+    <dimen name="pad">4dp</dimen>
+</resources>

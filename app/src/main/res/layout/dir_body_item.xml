@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/display_image"
+        android:layout_width="@dimen/mediaview_item"
+        android:layout_height="@dimen/mediaview_item"
+        android:layout_gravity="center"
+        android:padding="@dimen/pad"
+        android:src="@drawable/fm_folder"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/display_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="@dimen/media_size"
+        android:textColor="@color/colorPassword"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>
